@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
 from cadastro import Ui_MainWindow
 
-class Main(QMainWindow):
+class MainCadastro(QMainWindow):
     def __init__(self):
         super().__init__()
         self.ui = Ui_MainWindow()
@@ -49,6 +49,6 @@ class Main(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = Main()
+    window = MainCadastro()
     window.show()
     sys.exit(app.exec_())
