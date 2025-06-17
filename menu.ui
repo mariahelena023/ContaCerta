@@ -2,6 +2,14 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>807</height>
+   </rect>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -12,7 +20,7 @@
    <widget class="QLabel" name="logo">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>434</x>
       <y>210</y>
       <width>381</width>
       <height>81</height>
@@ -36,7 +44,7 @@
    <widget class="QPushButton" name="login_button">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>534</x>
       <y>360</y>
       <width>181</width>
       <height>41</height>
@@ -63,7 +71,7 @@ width:260px;</string>
    <widget class="QPushButton" name="login_button_2">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>534</x>
       <y>420</y>
       <width>181</width>
       <height>41</height>
@@ -92,7 +100,7 @@ border-radius:8px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1036</width>
+     <width>1250</width>
      <height>26</height>
     </rect>
    </property>
