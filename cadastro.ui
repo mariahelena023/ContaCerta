@@ -22,7 +22,7 @@
    <string notr="true">background: #2F2D3C;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_Titulo">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -46,7 +46,7 @@
      <string> ContaCerta</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_Voltar">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -72,7 +72,7 @@ border-radius: 8;</string>
      <string>Voltar</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_cadastro">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -96,7 +96,7 @@ border-radius: 8;</string>
      <string> Cadastro</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="lineEdit_Nome">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -110,19 +110,19 @@ border-radius: 8;</string>
 border-radius: 8;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_Nome">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>270</x>
       <y>300</y>
-      <width>101</width>
+      <width>81</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Arial Black</family>
-      <pointsize>16</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -134,19 +134,19 @@ border-radius: 8;</string>
      <string>Nome:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="label_Senha">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>379</y>
-      <width>111</width>
+      <x>270</x>
+      <y>380</y>
+      <width>81</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Arial Black</family>
-      <pointsize>16</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -158,7 +158,7 @@ border-radius: 8;</string>
      <string>Senha:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="lineEdit_Senha">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -171,20 +171,23 @@ border-radius: 8;</string>
      <string notr="true">background: #FAF8FF;
 border-radius: 8;</string>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::PasswordEchoOnEdit</enum>
+    </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="label_ConfirmarSenha">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>160</x>
       <y>460</y>
-      <width>261</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Arial Black</family>
-      <pointsize>16</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -196,7 +199,7 @@ border-radius: 8;</string>
      <string>Confirmar senha:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="lineEdit_ConfirmarSenha">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -209,13 +212,16 @@ border-radius: 8;</string>
      <string notr="true">background: #FAF8FF;
 border-radius: 8;</string>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::PasswordEchoOnEdit</enum>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="pushButton_Cadastrar">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>570</y>
-      <width>151</width>
+      <x>420</x>
+      <y>580</y>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
@@ -236,12 +242,12 @@ border-radius: 8;</string>
      <string>Cadastrar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="pushButton_Cancelar">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>570</y>
-      <width>151</width>
+      <x>650</x>
+      <y>580</y>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
