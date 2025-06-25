@@ -41,7 +41,7 @@ class MainCadastro(QMainWindow):
         self.ui.lineEdit_ConfirmarSenha.clear()
 
 
-    def voltar (self):
+    # def voltar (self):
         caminho = 
         
      
