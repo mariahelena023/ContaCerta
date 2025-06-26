@@ -66,7 +66,7 @@ border-radius: 8
 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnVoltar">
+   <widget class="QPushButton" name="pushButton_voltar">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -95,7 +95,7 @@ border-radius: 8;</string>
      <string>Voltar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnComecar">
+   <widget class="QPushButton" name="pushButton_comecar">
     <property name="geometry">
      <rect>
       <x>980</x>
