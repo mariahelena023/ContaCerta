@@ -91,7 +91,7 @@ background-color: #FAF8FF;</string>
      <string>Recorde</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="label_tempo">
     <property name="geometry">
      <rect>
       <x>1020</x>
@@ -159,34 +159,6 @@ background-color: #FAF8FF;</string>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: #1A1A1A;
-background-color: #FAF8FF;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_tempo">
-    <property name="geometry">
-     <rect>
-      <x>1130</x>
-      <y>700</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Rounded MT Bold</family>
-      <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
