@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from menu import Ui_MainWindow
+from Tela_inicial.menu import Ui_MainWindow
 
 
 class Main(QMainWindow):
