@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from instrucoes import Ui_MainWindow
+from TelaJogo import main_tela_jogo
 
 class Main_instrucoes(QMainWindow):
     def __init__(self):
@@ -10,13 +11,15 @@ class Main_instrucoes(QMainWindow):
         self.ui.pushButton_voltar.clicked.connect(self.voltar_menu)
         self.ui.pushButton_comecar.clicked.connect(self.comecar_jogo)
 
-    def voltar_menu(self):
-        print("Voltando ao menu...")
-        caminho = 
+    # def voltar_menu(self):
+    #     print("Voltando ao menu...")
+    #     caminho = 
 
     def comecar_jogo(self):
         print("Começando o jogo...")
-        caminho = 
+        self.jogo = main_tela_jogo()
+        self.jogo.show()
+        # self.close()
 
 
 if __name__ == "__main__":
