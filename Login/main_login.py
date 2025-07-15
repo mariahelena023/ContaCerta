@@ -14,7 +14,6 @@ class MainLogin(QMainWindow):
         self.ui.pushButton_CancelarLogin.clicked.connect(self.cancelar)
         self.ui.pushButton_voltarLogin.clicked.connect(self.voltar)
         
-
         
      
 
