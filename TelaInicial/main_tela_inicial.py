@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from tela_incial import Ui_MainWindow
-
+from ..Cadastro import main_cadastro
 
 class MainTelaInicial(QMainWindow):
     def __init__(self):
@@ -22,7 +22,7 @@ class MainTelaInicial(QMainWindow):
         # Esconder a janela atual
         self.hide()
 
-        # Criar e mostrar a tela de login
+    #     # Criar e mostrar a tela de login
         self.tela_login = TelaLogin()
         self.tela_login.show()
 
@@ -31,7 +31,7 @@ class MainTelaInicial(QMainWindow):
         self.hide()
 
         # Criar e mostrar a tela de cadastro
-        self.tela_cadastro = TelaCadastro()
+        self.tela_cadastro = main_cadastro()
         self.tela_cadastro.show()
 
 
@@ -41,15 +41,3 @@ if __name__ == "__main__":
     window.show()
     sys.exit(app.exec_())
 
-
-class TelaLogin(QtWidgets.QMainWindow):
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("Tela de Login")
-        self.setGeometry(100, 100, 800, 600)
-        self.setStyleSheet("background-color: rgb(47, 45, 60);")
-
-        # Adicione os widgets da tela de login aqui
-        label = QtWidgets.QLabel("Tela de Login", self)
-        label.setStyleSheet("color: white; font-size: 24px;")
-        label.move(300, 250)
