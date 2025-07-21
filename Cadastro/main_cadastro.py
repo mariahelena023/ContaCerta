@@ -2,8 +2,8 @@ import sys
 import os
 import json
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox, QStackedWidget
-from cadastro import Ui_MainWindow
-from login import Ui_LoginWindow  # Supondo que você tenha uma tela de login
+from Cadastro import Ui_MainWindow
+from Login import Ui_LoginWindow  # Supondo que você tenha uma tela de login
 
 class MainCadastro(QMainWindow):
     def __init__(self):
