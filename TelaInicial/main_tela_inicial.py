@@ -1,8 +1,9 @@
 import sys
+import os
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from tela_incial import Ui_MainWindow
-from Login import main_login
-from Cadastro import main_cadastro
+from tela_inicial import Ui_MainWindow
+from Login.login import MainLogin
+from Cadastro.cadastro import MainCadastro
 
 class MainTelaInicial(QMainWindow):
     def __init__(self):
@@ -15,19 +16,16 @@ class MainTelaInicial(QMainWindow):
 
     def abrir_tela_login(self):
         self.hide()
-        self.tela_login = main_login()
+        self.tela_login = MainLogin()
         self.tela_login.show()
 
     def abrir_tela_cadastro(self):
         self.hide()
-        self.tela_cadastro = main_cadastro()
+        self.tela_cadastro = MainCadastro()
         self.tela_cadastro.show()
-        
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainTelaInicial()
     window.show()
     sys.exit(app.exec_())
-
