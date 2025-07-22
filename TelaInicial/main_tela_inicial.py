@@ -1,8 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from tela_incial import Ui_MainWindow
-from ..Cadastro import main_cadastro
 from Login import main_login
+from Cadastro import main_cadastro
 
 class MainTelaInicial(QMainWindow):
     def __init__(self):
@@ -22,6 +22,7 @@ class MainTelaInicial(QMainWindow):
         self.hide()
         self.tela_cadastro = main_cadastro()
         self.tela_cadastro.show()
+        
 
 
 if __name__ == "__main__":
