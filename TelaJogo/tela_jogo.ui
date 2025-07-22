@@ -91,7 +91,7 @@ background-color: #FAF8FF;</string>
      <string>Recorde</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_tempo">
+   <widget class="QLabel" name="label_nomeTempo">
     <property name="geometry">
      <rect>
       <x>1020</x>
@@ -147,7 +147,7 @@ background-color: #FAF8FF;</string>
    <widget class="QLabel" name="label_recorde">
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>550</x>
       <y>710</y>
       <width>131</width>
       <height>41</height>
@@ -307,12 +307,12 @@ border-radius: 8;</string>
      <string>Pause</string>
     </property>
    </widget>
-   <widget class="QTimeEdit" name="timeEdit">
+   <widget class="QLabel" name="label_tempo">
     <property name="geometry">
      <rect>
-      <x>1120</x>
+      <x>1110</x>
       <y>700</y>
-      <width>101</width>
+      <width>111</width>
       <height>41</height>
      </rect>
     </property>
@@ -325,15 +325,14 @@ border-radius: 8;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #FAF8FF;
-color: #1A1A1A;</string>
+     <string notr="true">color: #1A1A1A;
+background-color: #FAF8FF;</string>
     </property>
-    <property name="maximumTime">
-     <time>
-      <hour>23</hour>
-      <minute>59</minute>
-      <second>59</second>
-     </time>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
