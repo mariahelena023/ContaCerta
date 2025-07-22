@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from tela_incial import Ui_MainWindow
-from Cadastro import main_cadastro
+from ..Cadastro import main_cadastro
 from Login import main_login
 
 class MainTelaInicial(QMainWindow):
